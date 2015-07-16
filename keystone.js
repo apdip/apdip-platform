@@ -60,6 +60,7 @@ keystone.set('routes', require('./routes'));
 
 keystone.set('nav', {
 	'members': 'members',
+	'base': ['doctors', 'hospitals', 'pathologies'],
 	'users': 'users',
 	'posts': ['posts', 'post-categories'],
 	'galleries': 'galleries',
