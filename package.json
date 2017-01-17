@@ -3,22 +3,20 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "keystone": "^0.3.19",
-    "async": "^1.5.0",
-    "lodash": "^4.13.1",
-    "swig": "^1.4.2",
-    "node-sass": "^3.3.2",
-    "node-sass-middleware": "^0.9.7",
-    "dotenv": "^2.0.0"
+    "keystone": "0.3.19",
+    "swig": "1.4.2",
+    "node-sass": "3.13.1",
+    "node-sass-middleware": "0.9.7",
+    "dotenv": "2.0.0"
   },
   "devDependencies": {
-    "eslint": "^2.12.0",
-    "eslint-config-keystone": "^2.3.1",
-    "eslint-plugin-react": "^5.1.1",
-    "gulp": "^3.7.0",
-    "gulp-shell": "^0.5.0",
-    "gulp-watch": "^4.3.5",
-    "gulp-sass": "^2.0.4"
+    "eslint": "2.12.0",
+    "eslint-config-keystone": "2.3.1",
+    "eslint-plugin-react": "5.1.1",
+    "gulp": "3.7.0",
+    "gulp-shell": "0.5.0",
+    "gulp-watch": "4.3.5",
+    "gulp-sass": "2.3.2"
   },
   "engines": {
     "node": ">=0.10.22",
