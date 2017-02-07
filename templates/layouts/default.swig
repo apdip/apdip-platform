@@ -64,11 +64,12 @@
 						<ul class="nav navbar-nav navbar-right">
 							{% if user -%}
 								{%- if user.canAccessKeystone -%}
-									<li><a href="/keystone">Open Keystone</a></li>
+									<li><a href="/reports">Listagens</a></li>
+									<li><a href="/keystone">Administração</a></li>
 								{%- endif -%}
-								<li><a href="/keystone/signout">Sign Out</a></li>
+								<li><a href="/keystone/signout">Terminar sessão</a></li>
 							{%- else -%}
-								<li><a href="/keystone/signin">Sign In</a></li>
+								<li><a href="/keystone/signin">Iniciar sessão</a></li>
 							{%- endif %}
 						</ul>
 					</div>
