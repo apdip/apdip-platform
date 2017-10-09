@@ -7,6 +7,8 @@
     "swig": "1.4.2",
     "node-sass": "3.13.1",
     "node-sass-middleware": "0.9.7",
+    "request": "<=2.81.0",
+    "shrinkwrap": "^0.4.0",
     "dotenv": "2.0.0"
   },
   "devDependencies": {
